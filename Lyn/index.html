@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Happy Birthday Lyn! </title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("back.jpg");
+            background-size: cover;
+            /*background-position: center;*/
+            background-repeat: no-repeat;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Indie Flower', cursive;
+            margin-bottom: 0%;
+        }
+        
+        #left {
+            float: left;
+            color: white;
+            text-align: right;
+            width: 49%;
+            height: 40ReM;
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            background-color: transparent;
+            background-repeat: no-repeat;
+        }
+        
+        #right {
+            float: right;
+            color: white;
+            text-align: left;
+            width: 49%;
+            height: 40ReM;
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            background-color: transparent;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Happy Birthday, Lyn! </h1>
+
+    <button id="left" onclick="Element.left()"> </button>
+
+    <button id="right" onclick="Element.right()"></button>
+
+    <audio id="persona">
+        <source src="song.mp3">
+    </audio>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
